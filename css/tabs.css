@@ -1,0 +1,87 @@
+* {
+    /* 모든 태그의 마진 0 */
+    margin: 0;
+    /* 모든 태그의 패딩 0 */
+    padding: 0;
+  }
+  body { 
+    /* 글자 두껍게 300 */
+    font-weight: 300;
+    /* 바깥쪽 여백 30픽셀(상하좌우 모두)  */
+    margin: 30px;
+  }
+
+/* Tabs */
+.tabs {
+    /* 가로길이 600픽셀 */
+    width: 600px;
+
+    /* 마진 위아래 0, 브라우저의 가운데 정렬 */
+    margin: a auto;
+
+    /* 배경색 #09f */
+    background-color: #09f;
+
+    /* 둥근 모서리 : 5픽셀 */
+    border-radius: 5px;
+
+  }
+  ul#tabs-nav {
+    /* li의 글머리 기호 없애기(동그라미) */
+    list-style: none;
+    
+    /* 마진 0 */
+    margin: 0;
+    
+    /* 패딩 5픽셀 */
+    padding: 5px;
+
+    height: 30px;
+    
+  }
+  ul#tabs-nav li {
+    /* li들끼리 가로로 나열하기 */
+    float: left;
+    
+    /* 글자 두께 두껍게(bold) */
+    font-weight: bold;
+    
+    /* 오른쪽 마진 2픽셀 */
+    margin-right: 2px;
+
+    /* 안쪽 여백 위아래 8픽셀, 좌우 10픽셀 */
+    padding: 8px 10px;
+    
+    /* 둥근 모서리 5픽셀 */
+    border-radius: 5px;
+    
+    /* 커서 모양을 손모양으로 변경 */
+    cursor: pointer;
+    
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    /* 배경색 #08f */
+    background-color: #08f;
+    
+  }
+  #tabs-nav li a {
+    /* 밑줄 없앰 */
+    text-decoration: none;
+    
+    /* 글자색 흰색 */
+    color: #fff;
+  }
+  .tab-content {
+    /* 안쪽 여백 10픽셀 */
+    padding: 10px;
+    
+    /* 테두리 5픽셀 실선 #09f */
+    border: 5px solid #09f;
+    
+    /* 배경색 흰색 */
+    background-color: #fff;
+    
+  }
+  
+  
